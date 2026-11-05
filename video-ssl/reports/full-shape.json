@@ -1,0 +1,18 @@
+{
+  "weights": "random full architecture; NOT pretrained checkpoint validation",
+  "input": [
+    1,
+    16,
+    3,
+    224,
+    224
+  ],
+  "tokens": [
+    1,
+    1568,
+    768
+  ],
+  "parameters": 86225664,
+  "seconds_initialization_and_forward": 4.843485101999988,
+  "peak_gpu_bytes": null
+}

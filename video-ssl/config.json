@@ -1,0 +1,15 @@
+{
+  "checkpoint": "MCG-NJU/videomae-base",
+  "revision": "main",
+  "manifest": "data/manifest.csv",
+  "output": "runs/baseline",
+  "frames": 16,
+  "stride": 4,
+  "clips": 3,
+  "seed": 17,
+  "device": "cpu",
+  "threads": 2,
+  "epochs": 100,
+  "lr": 0.001,
+  "weight_decay": 0.01
+}

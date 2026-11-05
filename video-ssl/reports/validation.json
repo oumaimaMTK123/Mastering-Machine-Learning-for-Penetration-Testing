@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "videos": 6,
+  "feature_shape": [
+    6,
+    32
+  ],
+  "checkpoint": "random tiny LOCAL engineering fixture, not pretrained",
+  "checks": [
+    "encode/decode",
+    "processor and shape",
+    "local checkpoint loading",
+    "forward",
+    "normal/shuffled embedding saving",
+    "probe updates",
+    "checkpoint resume",
+    "held-out metrics",
+    "source leakage rejection"
+  ],
+  "cuda_available": false
+}
